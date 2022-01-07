@@ -4,9 +4,9 @@ class Persona{
 
     constructor(nombre, apellido, edad){
         this.idPersona = ++Persona.contadorID;
-        this._nombre = nombre
-        this._apellido = apellido
-        this._edad = edad
+        this._nombre = nombre;
+        this._apellido = apellido;
+        this._edad = edad;
     }
 
     get nombre(){
